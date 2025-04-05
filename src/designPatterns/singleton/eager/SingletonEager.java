@@ -20,9 +20,9 @@ public class SingletonEager {
     // Specific singleton acum
 
     //   instanta singleton -> instanta UNICA pentru clasa noastra
-    //   definita ca static pentru a fi accesata fara a fi nevoie sa cream un obiect din clasa
-    //   dar definita ca privat pentru a nu o accesa direct pe ea ci prin metoda getInstance()
-    //   si final optional pentru a nu putea modifica instanta
+    //   definita ca STATIC pentru a fi accesata fara a fi nevoie sa cream un obiect din clasa
+    //   dar definita ca PRIVATE pentru a nu o accesa direct pe ea ci prin metoda getInstance()
+    //   si FINAL, optional pentru a nu putea modifica instanta
     //   dar daca nu avem metode care modifica instanta precum un setter static nu ne trebuie neaparat
 
     private static final SingletonEager instanta = new SingletonEager(); // apelarea constructorului aici pentru EAGER
