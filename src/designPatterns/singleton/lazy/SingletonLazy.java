@@ -1,6 +1,6 @@
 package designPatterns.singleton.lazy;
 
-// Singleton eager se foloseste atunci cand se cere ca instanta obiectului
+// Singleton Lazy se foloseste atunci cand se cere ca instanta obiectului
 // dorit sa NU fie creata de la bun inceput, ci doar atunci cand se doreste
 // accesarea ei prin metoda getInstance() pentru prima oara;
 
